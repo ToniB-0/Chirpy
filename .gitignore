@@ -1,0 +1,26 @@
+# Go build output
+out
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test/build artifacts
+*.test
+*.prof
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Environment/config files
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# Editor/IDE files
+.vscode/
+.idea/
